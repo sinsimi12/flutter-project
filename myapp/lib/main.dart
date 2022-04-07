@@ -7,5 +7,6 @@ void main() => runApp(MaterialApp(
           centerTitle: true,
           backgroundColor: Colors.green[600],
         ),
+        body: const Center(
       ),
     ));
