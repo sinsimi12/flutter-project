@@ -5,6 +5,7 @@ void main() => runApp(MaterialApp(
         appBar: AppBar(
           title: const Text('SariShop'),
           centerTitle: true,
+          backgroundColor: Colors.green[600],
         ),
       ),
     ));
