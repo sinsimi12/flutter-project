@@ -8,5 +8,7 @@ void main() => runApp(MaterialApp(
           backgroundColor: Colors.green[600],
         ),
         body: const Center(
+          child: Text(
+            'Press 1 to Buy',
       ),
     ));
