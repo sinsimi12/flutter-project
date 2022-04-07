@@ -10,5 +10,14 @@ void main() => runApp(MaterialApp(
         body: const Center(
           child: Text(
             'Press 1 to Buy',
+            style: TextStyle(
+              fontSize: 20.0,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 2.0,
+              color: Colors.grey,
+              fontFamily: 'Roboto',
+            ),
+          ),
+        ),
       ),
     ));
