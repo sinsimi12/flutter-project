@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
-      home: Scaffold(
+      home: Home(),
         appBar: AppBar(
           title: const Text('SariShop'),
           centerTitle: true,
